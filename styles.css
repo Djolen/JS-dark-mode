@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar&family=Dongle:wght@300&family=Pacifico&display=swap');
+
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Akshar', sans-serif;
+    transition: background 0.3s linear ;
+    -webkit-transition: background 0.3s linear ;
+    -moz-transition: background 0.3s linear ;
+    -ms-transition: background 0.3s linear ;
+    -o-transition: background 0.3s linear ;
+} 
+
+body.active{
+    background: rgb(35, 35, 36);
+    color: white;
+}
+
